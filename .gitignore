@@ -1,0 +1,28 @@
+# Vivado generated build artifacts
+vivado_proj/*.runs/
+vivado_proj/*.sim/
+vivado_proj/*.cache/
+vivado_proj/*.hw/
+vivado_proj/*.gen/
+vivado_proj/*.srcs/sources_1/bd/*/ip/
+vivado_proj/.Xil/
+vivado_proj/*.str
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+
+# Vitis generated
+vitis_ws/*/Debug/
+vitis_ws/*/Release/
+vitis_ws/*/.metadata/
+*.elf
+*.bit
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
